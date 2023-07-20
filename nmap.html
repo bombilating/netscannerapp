@@ -1,0 +1,30 @@
+# Nmap 7.80 scan initiated Mon May  1 02:20:01 2023 as: nmap -oN /var/www/html/nmap.html 10.0.2.15/24
+Nmap scan report for _gateway (10.0.2.2)
+Host is up (0.0018s latency).
+All 1000 scanned ports on _gateway (10.0.2.2) are filtered
+MAC Address: 52:54:00:12:35:02 (QEMU virtual NIC)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0034s latency).
+Not shown: 803 filtered ports, 195 closed ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 52:54:00:12:35:03 (QEMU virtual NIC)
+
+Nmap scan report for 10.0.2.4
+Host is up (0.0035s latency).
+Not shown: 997 closed ports
+PORT      STATE    SERVICE
+135/tcp   open     msrpc
+445/tcp   open     microsoft-ds
+52869/tcp filtered unknown
+MAC Address: 52:54:00:12:35:04 (QEMU virtual NIC)
+
+Nmap scan report for Ubuntu (10.0.2.15)
+Host is up (0.0000040s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Mon May  1 02:50:05 2023 -- 256 IP addresses (4 hosts up) scanned in 1804.61 seconds
